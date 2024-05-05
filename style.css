@@ -236,8 +236,8 @@ section:nth-child(10) {
 .contacts__item h4 {
     font-family: 'Cormorant Infant', serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
+    font-weight: bold;
+    font-size: 20px;
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.02em;
@@ -248,7 +248,7 @@ section:nth-child(10) {
     font-family: 'Cormorant Infant', serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.02em;
@@ -259,7 +259,7 @@ section:nth-child(10) {
     border-radius: 15px;
 
     margin-top: 20px;
-    width: 140px;
+    width: 120px;
 }
 
 a {
@@ -294,6 +294,7 @@ form span {
 
 form p {
     text-align: left;
+    margin-bottom: 7px;
 }
 
 form input {
@@ -325,7 +326,7 @@ input[type="radio"] {
     height: 18px;
     border: 1px solid #dddddd;
     background-color: #ffffff;
-    margin-right: 20px;
+    margin-right: 8px;
 }
 
 input[type="radio"]:checked {
@@ -344,6 +345,7 @@ label span {
     line-height: normal;
     letter-spacing: 0.02em;
     text-transform: uppercase;
+    margin-bottom: 7px;
 }
 
 /* footer styles */
@@ -360,6 +362,11 @@ footer {
     background-image: url('img/footer.png');
     height: 500px;
     padding: 40px;
+    padding-top: 20px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+body {
+    overflow-x: hidden;
 }

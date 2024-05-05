@@ -31,3 +31,6 @@ var x = setInterval(function () {
         document.getElementById("timer").innerHTML = "ПРОШЛА";
     }
 }, 1000);
+
+console.log("Developed by: http://t.me/vsecoder");
+console.log("Design by: https://t.me/arahis_diz");
