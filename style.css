@@ -369,4 +369,6 @@ footer {
 
 body {
     overflow-x: hidden;
+    max-width: 600px;
+    margin: 0 auto;
 }
