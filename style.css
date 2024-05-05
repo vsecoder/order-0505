@@ -71,7 +71,6 @@ header h2 {
 }
 
 header h3 {
-    margin-top: 15px;
     font-family: "Cormorant Infant", serif;
     font-style: normal;
     font-weight: 400;
@@ -102,6 +101,7 @@ section {
 }
 
 section h3 {
+    margin-top: 30px;
     font-family: "Cancellaresca", serif;
     font-style: normal;
     font-weight: 5;
@@ -132,6 +132,18 @@ section h4 {
     text-transform: uppercase;
 }
 
+section h5 {
+    font-family: 'Cormorant Infant', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
 img {
     margin-top: 40px;
 }
@@ -154,7 +166,13 @@ section:nth-child(2) {
 }
 
 section:nth-child(9) {
-    background-image: url('img/section6.png');
+    background-image: url('img/section3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section:nth-child(10) {
+    background-image: url('img/section4.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -201,20 +219,6 @@ section:nth-child(9) {
     letter-spacing: 0.02em;
     text-transform: uppercase;
 }
-
-/*
-            <div class="contacts">
-                <h4>Александру</h4>
-                <p>+7 996 349 8720</p>
-                <p><a href="#">TELEGRAM</a></p>
-            </div>
-
-            <div class="contacts">
-                <h4>Юлии</h4>
-                <p>+7 996 079 0380</p>
-                <p><a href="#">TELEGRAM</a></p>
-            </div>
-*/
 
 .contacts {
     display: flex;
@@ -264,4 +268,97 @@ a {
 
 .contacts__item:nth-child(2) p {
     background-color: #F6E3DF;
+}
+
+/* form styles */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 0 auto;
+    width: 80%;
+    text-align: left;
+}
+
+form span {
+    font-family: 'Cormorant Infant', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+form p {
+    text-align: left;
+}
+
+form input {
+    background: rgba(0, 0, 0, 0);
+    color: #000;
+    border: black 1px solid;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-family: 'Cormorant Infant', serif;
+    text-transform: uppercase;
+}
+
+form input[type="submit"] {
+    background-color: #C5CCAD;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 60%;
+    font-size: 22px;
+    font-family: 'Cormorant Infant', serif;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 500;
+}
+
+input[type="radio"] {
+    left: 0px;
+    top: 0px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    margin-right: 20px;
+}
+
+input[type="radio"]:checked {
+    background-color: #C5CCAD;
+    сolor: #000000;
+}
+
+label {
+    display: inline-flex;
+}
+
+label span {
+    font-family: 'Cormorant Infant', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+/* footer styles */
+
+footer p {
+    font-size: 14px;
+    text-align: right;
+    margin: 0;
+    color: white;
+}
+
+footer {
+    background-image: url('img/footer.png');
+    height: 500px;
+    padding: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
